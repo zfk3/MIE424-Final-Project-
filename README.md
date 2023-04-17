@@ -27,9 +27,12 @@ All experiments were run locally using CPU through an experimentation pipeline b
 
 A. Data Loaders: To load and clean each dataset. 
 
+
 B. Data Splitter: Splits the data into train/validation/test sets with fixed seeding. We used a single split for all of our testing (i.e. no cross-validation). This is because our experimentation involved training many different model variants and cross-validation for all of them would be impractical given the time. 
 
+
 C. Models: Initialize the desired model architecture in Pytorch that has been integrated with the definitions of fairness. 
+
 
 D. Training and Testing Loop: framework to train, validate and test each model variant using a gradient descent approach. 
 
