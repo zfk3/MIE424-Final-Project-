@@ -40,7 +40,7 @@ This can be found in the following notebook:
 1. UpdatedDataPipeline_4.0.ipynb: Priamry notebook used for training the COMPAS data. 
 2. UpdatedDataPipeline_5.0.ipynb: Primary notebook used for training the ADULT data. 
 
-Previous iterations of these notebooks can be found in the "Past Data Pipelines" folders. 
+Previous iterations of these notebooks can be found in the "Past Data Pipelines" folders. Note, these may not be fully commented as they are draft iterations. 
 
 ## Results and Analysis 
 In our analysis we aimed to understand 1) feasibility of single regularization, 2) feasibility of combined regularization, and 3) fairness-accuracy tradeoff. 
