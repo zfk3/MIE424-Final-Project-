@@ -28,7 +28,7 @@ The FairTorch implementation did not include any experimentation or exploration 
 
 ## Exploratory Data Analysis: 
 We implemented our optimization problem using the famous COMPAS and Adult Income dataset. Our primliminary exploratory data anlysis, feature selection, and data processing can be found in the following notebook:
-
+ 
 1. `EDA.ipynb`
 
 ## Experimentation Pipeline: 
