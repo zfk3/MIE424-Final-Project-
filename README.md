@@ -13,7 +13,7 @@ Datasets:
 1. COMPAS: http://www-student.cse.buffalo.edu/~atri/algo-and-society/support/notebooks/index.html#compas-dataset
 2. Adult Income: https://archive.ics.uci.edu/ml/datasets/adult 
 
-Each compnent of our repo is explained in detail below. 
+For ease of implementation, we have included our cleaned versions of our files.
 
 ## Fairness Regularizers:
 ''A Reductions Approach to Fair Classification''by Agerwal et al. implement fairness regularizers by using the true fairness definitions for equalized odds and demographic parity. They develop a novel formulation that can represent both of these definitions as a set of linear constraints. These constraints can then be synthesized into a regularization term in a model’s objective function. Which the approach taken by FairTorch, a repository that won first prize at the 2020 Global PyTorch Summer Hackathon in the Responsible AI category.  Their repository was intended to be used as a library of fairness regularizers that can be integrated into PyTorch models. The following notebooks were used to reimplement simplifications of FairTorch to be used in our project and can be found in the "Regularizers" folder. 
