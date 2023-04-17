@@ -45,8 +45,8 @@ C. Models: Initialize the desired model architecture in Pytorch that has been in
 D. Training and Testing Loop: framework to train, validate and test each model variant using a gradient descent approach. 
 
 This can be found in the following notebook: 
-1. UpdatedDataPipeline_4.0.ipynb: Priamry notebook used for training the COMPAS data. 
-2. UpdatedDataPipeline_5.0.ipynb: Primary notebook used for training the ADULT data. 
+1. `DataPipeline_COMPAS.ipynb`: Priamry notebook used for training the COMPAS data. 
+2. `DataPipeline_ADULT.ipynb`: Primary notebook used for training the ADULT data. 
 
 Previous iterations of these notebooks can be found in the "Past Data Pipelines" folders. Note, these may not be fully commented as they are draft iterations. 
 
@@ -62,7 +62,6 @@ These can be run using the `results_compas.csv` and `results_adult.csv` data fil
 Additional notebooks with our rough work can be found in the following notebooks in the "Past Results Notebooks" folder. 
 1. `Results_Graphs.ipynb`: Model performance and fairness metrics plotted against various alpha values for single regularizers to understand their impact on these values. 
 2. `Results_Combined.ipynb`: Heatmaps for various tradeoff parameter values and differnet fairness and model performance metrics to understand the combined effect of fairness regularizers. 
-3. `Alpha_Tuning_COMPAS.ipynb`: Accuracy vs. Fairness graphs to understand the trade off for differnet alpha values. Heatmaps for percent difference for accuracy, demographic parity, and equalized odds from the baseline model for various alpha values. 
-4. `Alpha_Tuning_Adult.ipynb`: Adult Income dataset version of the Alpha_Tuning.ipynb.
-
+3. `Alpha_Tuning_COMPAS.ipynb`: Accuracy vs. Fairness graphs to understand the trade off for different alpha values for the COMPAS dataset. Heatmaps for percent difference for accuracy, demographic parity, and equalized odds from the baseline model for various alpha values. 
+4. `Alpha_Tuning_Adult.ipynb`: Accuracy vs. Fairness graphs to understand the trade off for different alpha values for the Adult dataset. Heatmaps for percent difference for accuracy, demographic parity, and equalized odds from the baseline model for various alpha values. 
 
