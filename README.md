@@ -46,9 +46,9 @@ Previous iterations of these notebooks can be found in the "Past Data Pipelines"
 In our analysis we aimed to understand 1) feasibility of single regularization, 2) feasibility of combined regularization, and 3) fairness-accuracy tradeoff. 
 Our notebooks for this portion of the project can be found in the "Results" folder. They are as follows: 
 
-1. ResultsGraphs.ipynb: Model performance and fairness metrics plotted against various alpha values for single regularizers to understand their impact on these values. 
+1. Results_Graphs.ipynb: Model performance and fairness metrics plotted against various alpha values for single regularizers to understand their impact on these values. 
 2. Results_Combined.ipynb: Heatmaps for various tradeoff parameter values and differnet fairness and model performance metrics to understand the combined effect of fairness regularizers. 
-3. Alpha_Tuning.ipynb: Accuracy vs. Fairness graphs to understand the trade off for differnet alpha values. Heatmaps for percent difference for accuracy, demographic parity, and equalized odds from the baseline model for various alpha values. 
+3. Alpha_Tuning_COMPAS.ipynb: Accuracy vs. Fairness graphs to understand the trade off for differnet alpha values. Heatmaps for percent difference for accuracy, demographic parity, and equalized odds from the baseline model for various alpha values. 
 4. Alpha_Tuning_Adult.ipynb: Adult Income dataset version of the Alpha_Tuning.ipynb.
 
 
