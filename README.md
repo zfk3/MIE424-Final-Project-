@@ -24,6 +24,7 @@ We implemented our optimization problem using the famous COMPAS and Adult Income
 
 ## Experimentation Pipeline 
 All experiments were run locally using CPU through an experimentation pipeline built on Google Colab in Python. The data processing and analysis portion of our pipeline was built with the standard pandas, plotly, and numpy packages. The ML models and testing in our pipeline were built using torch, sklearn, and fairlearn (a library to compute fairness metrics from ML model outputs). The experimentation pipeline consists of the following components: 
+
 A. Data Loaders: To load and clean each dataset. 
 B. Data Splitter: Splits the data into train/validation/test sets with fixed seeding. We used a single split for all of our testing (i.e. no cross-validation). This is because our experimentation involved training many different model variants and cross-validation for all of them would be impractical given the time. 
 C. Models: Initialize the desired model architecture in Pytorch. 
