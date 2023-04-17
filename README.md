@@ -49,7 +49,9 @@ This can be found in the following notebook:
 1. `DataPipeline_COMPAS.ipynb`: Priamry notebook used for training the COMPAS data. 
 2. `DataPipeline_ADULT.ipynb`: Primary notebook used for training the Adult Income data. 
 
-Previous iterations of these notebooks can be found in the "Past Data Pipelines" folders. Note, these may not be fully commented as they are draft iterations. 
+Note: both pipelines contain the same code that was seperated to allow for parallel training and to store the distinct hyperparameters for each dataset. *The `DataPipeline_COMPAS.ipynb` file has additional commenting for understanding*. 
+
+Previous iterations of these notebooks can also be found in the "Past Data Pipelines" folders. Note, these may not be fully commented as they are draft iterations. 
 
 ## Results and Analysis: 
 In our analysis we aimed to understand use of 1) a single fairness regularizer, 2) combining fairness regularizers, specifically looking at the fairness-accuracy tradeoff. 
