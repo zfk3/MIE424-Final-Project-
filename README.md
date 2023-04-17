@@ -6,7 +6,7 @@ OPTIMIZING FOR FAIRNESS IN MACHINE LEARNING
 ## Overview:
 This repo is tangental to our paper for our MIE424 Final Project. In this project, we study the effects of adding fairness regularizers to the objective function when training binary classification models. Our goals are twofold. First, we seek to examine the fairness-accuracy tradeoffs of regularizing for a single definition of fairness. We then extend the literature by exploring the effectiveness  of regularizing for multiple definitions of fairness simultaneously. 
 
-## Running the Project
+## Running the Project:
 To run our project and replicate results, you can run either (1) UpdatedDataPipeline_4.0.ipynb or (2) UpdatedDataPipeline_5.0.ipynb in Google Colab. Further details pretaining to each notebook is explained below. Substitution of datasets will be required to run this notebook. The datasets we used can be collected from the following sources. 
 
 Datasets: 
@@ -15,7 +15,7 @@ Datasets:
 
 Each compnent of our repo is explained in detail below. 
 
-## Fairness Regularizers
+## Fairness Regularizers:
 ''A Reductions Approach to Fair Classification''by Agerwal et al. implement fairness regularizers by using the true fairness definitions for equalized odds and demographic parity. They develop a novel formulation that can represent both of these definitions as a set of linear constraints. These constraints can then be synthesized into a regularization term in a model’s objective function. Which the approach taken by FairTorch, a repository that won first prize at the 2020 Global PyTorch Summer Hackathon in the Responsible AI category.  Their repository was intended to be used as a library of fairness regularizers that can be integrated into PyTorch models. The following notebooks were used to reimplement simplifications of FairTorch to be used in our project and can be found in the "Regularizers" folder. 
 
 1. FairtorchDemo.ipynb: Demoing the FairTorch Library
@@ -50,7 +50,7 @@ This can be found in the following notebook:
 
 Previous iterations of these notebooks can be found in the "Past Data Pipelines" folders. Note, these may not be fully commented as they are draft iterations. 
 
-## Results and Analysis 
+## Results and Analysis: 
 In our analysis we aimed to understand 1) feasibility of single regularization, 2) feasibility of combined regularization, and 3) fairness-accuracy tradeoff. 
 Our notebooks for this portion of the project can be found in the "Results" folder. They are as follows: 
 
