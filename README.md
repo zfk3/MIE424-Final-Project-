@@ -4,7 +4,7 @@ OPTIMIZING FOR FAIRNESS IN MACHINE LEARNING
 #### Developed by Sajad Hashemi, Zahra Nadine Kandola, Scott Oxholm, and Rachael Walker
 
 ## Overview:
-This repository supports our paper for our MIE424 Final Project. In this project, we study the effects of adding fairness regularizers to the objective function when training binary classification models. Our goals are twofold. First, we seek to examine the fairness-accuracy tradeoffs of regularizing for a single definition of fairness. We then extend the literature by exploring the effectiveness  of regularizing for multiple definitions of fairness simultaneously. 
+This repository supports [our paper](https://github.com/zfk3/MIE424-Final-Project-/blob/main/MIE424%20Final%20Report.pdf) for our MIE424 Final Project. In this project, we study the effects of adding fairness regularizers to the objective function when training binary classification models. Our goals are twofold. First, we seek to examine the fairness-accuracy tradeoffs of regularizing for a single definition of fairness. We then extend the literature by exploring the effectiveness  of regularizing for multiple definitions of fairness simultaneously. 
 
 ## Running the Project:
 To run our project and replicate results, you can run either (1) `DataPipeline_COMPAS.ipynb` or (2) `DataPipeline_ADULT.ipynb` in Google Colab. Further details pretaining to each notebook are explained below. 
