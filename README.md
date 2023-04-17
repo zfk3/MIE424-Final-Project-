@@ -51,12 +51,18 @@ This can be found in the following notebook:
 Previous iterations of these notebooks can be found in the "Past Data Pipelines" folders. Note, these may not be fully commented as they are draft iterations. 
 
 ## Results and Analysis: 
-In our analysis we aimed to understand 1) feasibility of single regularization, 2) feasibility of combined regularization, and 3) fairness-accuracy tradeoff. 
-Our notebooks for this portion of the project can be found in the "Results" folder. They are as follows: 
+In our analysis we aimed to understand use of 1) a single fairness regularizer, 2) combining fairness regularizers, specifically looking at the fairness-accuracy tradeoff. 
 
-1. Results_Graphs.ipynb: Model performance and fairness metrics plotted against various alpha values for single regularizers to understand their impact on these values. 
-2. Results_Combined.ipynb: Heatmaps for various tradeoff parameter values and differnet fairness and model performance metrics to understand the combined effect of fairness regularizers. 
-3. Alpha_Tuning_COMPAS.ipynb: Accuracy vs. Fairness graphs to understand the trade off for differnet alpha values. Heatmaps for percent difference for accuracy, demographic parity, and equalized odds from the baseline model for various alpha values. 
-4. Alpha_Tuning_Adult.ipynb: Adult Income dataset version of the Alpha_Tuning.ipynb.
+Our main notebooks for this portion of the project are as follows: 
+1. `Analysis_1_Single_Regularizer.ipynb` which contains all graphs from Section 5.3.1 of our report. 
+2. `Analysis_2_Combining_Regularizers.ipynb` which contains all graphs from Section 5.3.2 of the report. 
+
+These can be run using the `results_compas.csv` and `results_adult.csv` data files. 
+
+Additional notebooks with our rough work can be found in the following notebooks in the "Past Results Notebooks" folder. 
+1. `Results_Graphs.ipynb`: Model performance and fairness metrics plotted against various alpha values for single regularizers to understand their impact on these values. 
+2. `Results_Combined.ipynb`: Heatmaps for various tradeoff parameter values and differnet fairness and model performance metrics to understand the combined effect of fairness regularizers. 
+3. `Alpha_Tuning_COMPAS.ipynb`: Accuracy vs. Fairness graphs to understand the trade off for differnet alpha values. Heatmaps for percent difference for accuracy, demographic parity, and equalized odds from the baseline model for various alpha values. 
+4. `Alpha_Tuning_Adult.ipynb`: Adult Income dataset version of the Alpha_Tuning.ipynb.
 
 
