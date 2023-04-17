@@ -4,5 +4,6 @@ OPTIMIZING FOR FAIRNESS IN MACHINE LEARNING
 #### Developed by Sajad Hashemi, Zahra Nadine Kandola, Scott Oxholm, and Rachael Walker
 
 ## Overview:
-Many of today's Internet services are supported by massively scalable distributed storage systems that serve data with very low-latency. These storage systems are structured by storing data as a key-value pair, which enables fast insertion, update, and retrieval of data. To support millions of potential users, these storage systems are often distributed across thousands of computers in data centers worldwide. In this project, we implement a simplified storage server that mimics many of the features relevant in real-world distributed storage systems. 
+This repo is tangental to our paper for our M1E424 Final Project. In this project, we study the effects of adding fairness regularizers to the objective function when training binary classification models. Our goals are twofold. First, we seek to examine the fairness-accuracy tradeoffs of regularizing for a single definition of fairness. We then extend the literature by exploring the effectiveness  of regularizing for multiple definitions of fairness simultaneously. 
+
 
